@@ -1,6 +1,11 @@
 import tkinter as tk
 import sys
-
+import zlib
+import base64
+import marshal
+import json
+import urllib
+import psutil
 # Function to minimize window (Ubuntu doesn't have a system tray)
 def minimize_window(window):
     window.iconify()
